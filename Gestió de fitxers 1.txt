@@ -1,4 +1,5 @@
- ```console 
+```console 
+
 Microsoft Windows [Versión 10.0.19043.1586]
 (c) Microsoft Corporation. Todos los derechos reservados.
 
@@ -92,4 +93,6 @@ C:\winword>mkdir clipart
 C:\winword>mkdir textos
 
 C:\winword>
+
 ```
+
