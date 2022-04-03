@@ -1,0 +1,93 @@
+Microsoft Windows [Versión 10.0.19043.1586]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\oky>cd..
+
+C:\Users>cd..
+
+C:\>cd..
+
+C:\>color 6
+
+C:\>cd
+C:\
+
+C:\>mkdir utilility dos60 windows3 winword
+
+C:\>cd windows3
+
+C:\windows3>cd
+C:\windows3
+
+C:\windows3>mkdir system
+
+C:\windows3>mkdir temp
+
+C:\windows3>mkdir msapps
+
+C:\windows3>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 9030-0DF6
+
+ Directorio de C:\windows3
+
+13/03/2022  08:39    <DIR>          .
+13/03/2022  08:39    <DIR>          ..
+13/03/2022  08:39    <DIR>          msapps
+13/03/2022  08:39    <DIR>          system
+13/03/2022  08:39    <DIR>          temp
+               0 archivos              0 bytes
+               5 dirs  31.113.461.760 bytes libres
+
+C:\windows3>cd msapps
+
+C:\windows3\msapps>cd
+C:\windows3\msapps
+
+C:\windows3\msapps>cd
+C:\windows3\msapps
+
+C:\windows3\msapps>mkdir msgraph
+
+C:\windows3\msapps>mkdir wordart
+
+C:\windows3\msapps>mkdir equation
+
+C:\windows3\msapps>mkdir grphplt
+
+C:\windows3\msapps>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 9030-0DF6
+
+ Directorio de C:\windows3\msapps
+
+13/03/2022  08:41    <DIR>          .
+13/03/2022  08:41    <DIR>          ..
+13/03/2022  08:40    <DIR>          equation
+13/03/2022  08:41    <DIR>          grphplt
+13/03/2022  08:40    <DIR>          msgraph
+13/03/2022  08:40    <DIR>          wordart
+               0 archivos              0 bytes
+               6 dirs  31.113.461.760 bytes libres
+
+C:\windows3\msapps>cd..
+
+C:\windows3>cd,,
+C:\windows3
+
+C:\windows3>..cd..
+"..cd.." no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\windows3>cd..
+
+C:\>cd
+C:\
+
+C:\>cd winword
+
+C:\winword>mkdir clipart
+
+C:\winword>mkdir textos
+
+C:\winword>

@@ -1,0 +1,212 @@
+Microsoft Windows [Versión 10.0.19043.1586]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Windows\system32>date /t
+19/03/2022
+
+C:\Windows\system32>cD ..
+
+C:\Windows>cD ..
+
+C:\>cD
+C:\
+
+C:\>mkDir pruebas
+
+C:\>cD \pruebas
+
+C:\pruebas>cD
+C:\pruebas
+
+C:\pruebas>mkDir carpeta1 carpeta2 carpeta3 carpeta4
+
+C:\pruebas>attrib +r +h carpeta1
+
+C:\pruebas>attrib +r +h carpeta2
+
+C:\pruebas>attrib +r +h carpeta3
+
+C:\pruebas>attrib +r +h carpeta4
+
+C:\pruebas>netstat
+
+Conexiones activas
+
+  Proto  Dirección local        Dirección remota       Estado
+  TCP    10.0.2.15:50095        20.54.37.64:https      ESTABLISHED
+  TCP    10.0.2.15:50194        server-13-224-106-127:https  CLOSE_WAIT
+  TCP    10.0.2.15:50213        a23-37-175-29:https    CLOSE_WAIT
+
+C:\pruebas>netstat > red.txt
+
+C:\pruebas>cat red.txt
+"cat" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\pruebas>cD ..
+
+C:\>touch red.txt
+"touch" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\>touch reD
+"touch" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\>copy reD.txt
+El sistema no puede encontrar el archivo especificado.
+
+C:\>copy con reD.txt
+cat reD.txt
+hola mohcine
+        1 archivo(s) copiado(s).
+
+C:\>cD..
+
+C:\>cD
+C:\
+
+C:\>copy con arbol.txt
+        0 archivo(s) copiado(s).
+
+C:\>cD ..
+
+C:\>cD
+C:\
+
+C:\>tree c:\windows > arbol.txt
+^C
+C:\>
+C:\>move arbol.txt c:\users\aDmin_mohcine\desktop
+El sistema no puede encontrar la ruta especificada.
+Se han movido         0 archivos.
+
+C:\>move arbol.txt c:\users\aDmin_mohcine\Escritorio
+El sistema no puede encontrar la ruta especificada.
+Se han movido         0 archivos.
+
+C:\>copy arbol.txt
+No se puede copiar el archivo sobre sí mismo.
+        0 archivo(s) copiado(s).
+
+C:\>touch arbol.txt
+"touch" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\>move arbol.txt c:\users\okay\Escritorio
+El sistema no puede encontrar la ruta especificada.
+Se han movido         0 archivos.
+
+C:\>copy arbol.txt \escritorio
+        1 archivo(s) copiado(s).
+
+C:\>cD..
+
+C:\>cD..
+
+C:\>cD
+C:\
+
+C:\>mD temp
+
+C:\>mD uno
+
+C:\>cD uno
+
+C:\uno>mD Dos
+
+C:\uno>cD Dos
+
+C:\uno\Dos>mD tres
+
+C:\uno\Dos> echo esto es ejercicio7 >fichero.txt
+
+C:\uno\Dos>path hello C:\Users\oky\Desktop
+
+C:\uno\Dos>C:\Users\oky\Desktop;%path%
+"C:\Users\oky\Desktop" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\uno\Dos>c:\hello.bat
+"c:\hello.bat" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\uno\Dos>cD..
+
+C:\uno>..cD..
+"..cD.." no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\uno>cD..
+
+C:\>cD
+C:\
+
+C:\>hello.bat
+"hello.bat" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\>Users\oky\Desktop;%path%
+"Users\oky\Desktop" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\>path hello.bat
+
+C:\>hello.bat
+"hello.bat" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\>usaurios\okay\desktop
+El sistema no puede encontrar la ruta especificada.
+
+C:\>users\okay\desktop
+El sistema no puede encontrar la ruta especificada.
+
+C:\>C:\Users\oky
+"C:\Users\oky" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\>cD
+C:\
+
+C:\>C:\Users\oky
+"C:\Users\oky" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\>cd C:\Users\oky
+
+C:\Users\oky>C:\Users\oky\dosktop
+"C:\Users\oky\dosktop" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\oky>Users\oky\dosktop
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\oky>hello.bat
+"hello.bat" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\oky>cD \Desktop
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\oky>cD..
+
+C:\Users>cD..
+
+C:\>cD
+C:\
+
+C:\>cD >Users\oky\desktop
+Acceso denegado.
+
+C:\>cD users\okay\desktop
+El sistema no puede encontrar la ruta especificada.
+
+C:\>cD users\oky\desktop
+
+C:\Users\oky\Desktop>hello.bat
+
+C:\Users\oky\Desktop>echo HELLO WORD
+HELLO WORD
+
+C:\Users\oky\Desktop>

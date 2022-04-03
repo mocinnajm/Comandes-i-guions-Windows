@@ -1,0 +1,146 @@
+console´´´Microsoft Windows [Versión 10.0.19043.1586]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Windows\system32>net user
+
+Cuentas de usuario de \\DESKTOP-76N35KC
+
+-------------------------------------------------------------------------------
+Administrador            DefaultAccount           Invitado
+oky                      WDAGUtilityAccount
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>net user aDmin_mohcine /add
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>net user
+
+Cuentas de usuario de \\DESKTOP-76N35KC
+
+-------------------------------------------------------------------------------
+aDmin_mohcine            Administrador            DefaultAccount
+Invitado                 oky                      WDAGUtilityAccount
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>net localgroup administradores aDmin_mohcine /add
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>net user najm /add
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>net user
+
+Cuentas de usuario de \\DESKTOP-76N35KC
+
+-------------------------------------------------------------------------------
+aDmin_mohcine            Administrador            DefaultAccount
+Invitado                 najm                     oky
+WDAGUtilityAccount
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>net localgroup administradores /add
+Ya existe ese grupo.
+
+Puede obtener más ayuda con el comando NET HELPMSG 2223.
+
+
+C:\Windows\system32>net localgroup SMX /add
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>net localgroup nombredelgrupo nombredeusuario /add
+Error de sistema 1376.
+
+El grupo local especificado no existe.
+
+
+C:\Windows\system32>net localgroup nombredelgrupo nombredeusuario /add
+Error de sistema 1376.
+
+El grupo local especificado no existe.
+
+
+C:\Windows\system32>net localgoup administradores aDmin_mohcine /add
+La sintaxis de este comando es:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+C:\Windows\system32>net  localgroup administradores aDmin_mohcine /add
+Error de sistema 1378.
+
+El nombre de cuenta especificado ya pertenece al grupo.
+
+
+C:\Windows\system32>net  localgoup SMX najm  /add
+La sintaxis de este comando es:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+C:\Windows\system32>net  localgoup SMX najm  /add
+La sintaxis de este comando es:
+
+NET
+    [ ACCOUNTS | COMPUTER | CONFIG | CONTINUE | FILE | GROUP | HELP |
+      HELPMSG | LOCALGROUP | PAUSE | SESSION | SHARE | START |
+      STATISTICS | STOP | TIME | USE | USER | VIEW ]
+
+C:\Windows\system32>net  localgroup SMX najm  /add
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>net user
+
+Cuentas de usuario de \\DESKTOP-76N35KC
+
+-------------------------------------------------------------------------------
+aDmin_mohcine            Administrador            DefaultAccount
+Invitado                 najm                     oky
+WDAGUtilityAccount
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>net localgroup
+
+Alias para \\DESKTOP-76N35KC
+
+-------------------------------------------------------------------------------
+*Administradores
+*Administradores de Hyper-V
+*Duplicadores
+*IIS_IUSRS
+*Invitados
+*Lectores del registro de eventos
+*Operadores criptográficos
+*Operadores de asistencia de control de acceso
+*Operadores de configuración de red
+*Operadores de copia de seguridad
+*Propietarios del dispositivo
+*SMX
+*System Managed Accounts Group
+*Usuarios
+*Usuarios avanzados
+*Usuarios COM distribuidos
+*Usuarios de administración remota
+*Usuarios de escritorio remoto
+*Usuarios del monitor de sistema
+*Usuarios del registro de rendimiento
+Se ha completado el comando correctamente.
+
+
+C:\Windows\system32>*administradores
+"*administradores" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Windows\system32>```

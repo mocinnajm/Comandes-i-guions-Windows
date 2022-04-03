@@ -1,0 +1,41 @@
+
+C:\winword>cd
+C:\winword
+
+C:\winword>cd..
+
+C:\>cd..
+
+C:\>mkdir virus contraplu qpro wp51
+
+C:\>cd virus
+
+C:\virus>mkdir paraninf
+
+C:\virus>mkdir mcafee
+
+C:\virus>mkdir article
+
+C:\virus>cd wp15
+El sistema no puede encontrar la ruta especificada.
+
+C:\virus>cd wp51
+El sistema no puede encontrar la ruta especificada.
+
+C:\virus>cd..
+
+C:\>cd wp51
+
+C:\wp51>mkdir textos
+
+C:\wp51>cd..
+
+C:\>cd qpro
+
+C:\qpro>mkdir ponts
+
+C:\qpro>mkdir bin
+
+C:\qpro>mkdir treball
+
+C:\qpro>
